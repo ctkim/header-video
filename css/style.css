@@ -7,32 +7,29 @@
   overflow: hidden;
 }
 
-iframe, video {
+/** video {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-iframe {
-  height: 100%;
   width: 100%;
-}
-
-video {
-  width: 100%;
-}
+}**/
 
 .teaser-video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   height: auto; 
 }
 
-.header-video--media {
+/** .header-video--media {
   width: 100%;
   height: auto;
-}
+}**/
 
 /* ====================================
    Just making stuff pretty
@@ -72,7 +69,7 @@ h2 {
   margin-top: 1em;
 }
 
-.video-trigger {
+/**.video-trigger {
   z-index: 5;
   position: absolute;
   background: #222;
@@ -95,13 +92,13 @@ h2 {
 
 .video-trigger:hover {
   background: #363636;
-}
+}**/
 
 /**
   Just some basic styling for the closing trigger
 **/
 
-.video-close-trigger {
+/**.video-close-trigger {
   z-index: 99;
   position: absolute;
   background: #A61212;
@@ -121,7 +118,7 @@ h2 {
 .video-close-trigger:hover {
   background: #363636;
   cursor: pointer;
-}
+}**/
 
 .container {
   margin: 0 auto;
